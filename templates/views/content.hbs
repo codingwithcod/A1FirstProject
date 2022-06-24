@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     {{>header}}
+    <style>
+    
+       
+        .co-container{
+            height: 100%;
+            width: 100%;
+            background: #fff;
+        }
+        h1{
+            font-size: 3rem;
+            margin: auto;
+           text-align: center;
+        }
+        .box-upper, .box-lower{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(250, 250, 250);
+            
+        }
+        .box1{
+            height: 10rem;
+            width: 10rem;
+            background: rgb(175, 175, 255);
+            margin: 2rem;
+        }
+    </style>
+  
+</head>
+ {{>navbar}}
+<body>
+    
+    <div class="co-container">
+        <h1>Contents</h1>
+        <div class="box-upper">
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
+            </div>
+        <div class="box-lower">
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
+        </div>
+    </div>
+</body>
+<footer>{{>footer}}</footer>
+</html>
